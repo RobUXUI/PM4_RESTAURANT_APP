@@ -4,15 +4,17 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import './Home.css';
+import Products from './Products';
+
+
 
 
 const Home = ()=> {
     return(
-
         <section>
         <Container>
         <Row className="row-gap-3 mb-3"> 
-
         <Col className="md p-5"> 
         <div>
         <h2>Best choice</h2>
@@ -34,7 +36,13 @@ Sabemos que para tí, no es solo una mejor pizza. Es una reunión familiar, un c
          </div>
         </Col>
         </Row>
+
+        <Products/>
+       
         </Container>
+         
+        
+        
         </section>
     )
 }
