@@ -9,10 +9,10 @@ import Container from "react-bootstrap/esm/Container"
 
 function App() {
 return(
-  <Container className="my-3 px-3" >
+  <Container>
     <Routes>
-      <Route path="/home" element= {<Home />}/>
-      <Route path="/products" element={<Products />}/>
+      <Route path="/Home" element= {<Home />}/>
+      <Route path="/Products" element={<Products />}/>
       <Route path="/Contacto" element={<Contacto />}/>
     </Routes>
   </Container>

@@ -24,7 +24,7 @@ const Header = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="./src/assets/imagenes/banners/banner.png"
+        src="./src/assets/imagenes/banners/banner2.png"
         alt="Second slide"
       />
       <Carousel.Caption>

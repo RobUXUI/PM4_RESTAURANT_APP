@@ -5,7 +5,9 @@ body{
   background-color: #282D31;
 }
 
-
+img{
+  width: 150px;
+}
 
 h1,h2,h3{
   font-family: 'Open Sans', sans-serif;
@@ -28,6 +30,6 @@ p{
   background-color: #DD1D1D;
   color: white;
 
-}
+} */
 
- */
+ 
