@@ -1,7 +1,7 @@
 
 
 import Container from "react-bootstrap/esm/Container";
-import {Pizzas} from "../componentes/Pizzas/Pizzas";
+import {Pizzas} from "../../componentes/Pizzas/Pizzas";
 import Image from "react-bootstrap/esm/Image";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";

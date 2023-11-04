@@ -8,15 +8,16 @@ import './Footer.css';
 
 function Footer() {
   return (
+   
     <footer>
-    <Container>
-      <Row>
+    <Container >
+      <Row className='footer' >
         <Col>
          <Image src="./src/assets/imagenes/logo/logo.png" fluid />
           
         </Col>
         <Col> 
-             <h3>Pizzeria Best choise</h3>
+             <h3>Pizzeria Best Choise</h3>
         </Col>
         <Col>
         <h6>Dirección: Sn Martin Viña del mar</h6>

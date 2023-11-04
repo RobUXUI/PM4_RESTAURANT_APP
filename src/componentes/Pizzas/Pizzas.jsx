@@ -6,7 +6,7 @@ export const Pizzas = (props) => {
     <div>
       <h3>{props.name}</h3>
       <p>{props.description}</p>
-      <Button variant="danger">Valor ${props.valor}</Button> {/* Aquí podrías formatear el precio si es necesario */}
+      <Button variant="danger">Valor ${props.valor}</Button> 
     </div>
   );
 };
@@ -14,6 +14,6 @@ export const Pizzas = (props) => {
 Pizzas.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  valor: PropTypes.number.isRequired // Asegúrate de que esto refleje el tipo de dato real que estás pasando.
+  valor: PropTypes.number.isRequired 
 };
 
