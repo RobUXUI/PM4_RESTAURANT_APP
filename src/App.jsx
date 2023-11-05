@@ -3,7 +3,7 @@ import { Routes, Route} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from "./views/Home/Home"
 import Products from "./views/Productos/Products"
-import Reservas from "./views/Reservas.JSX"
+import Reservas from "./views/Reservas/Reservas"
 import Container from "react-bootstrap/esm/Container"
 
 

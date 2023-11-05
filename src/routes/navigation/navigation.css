@@ -1,0 +1,17 @@
+
+
+
+.navbar_brand{
+
+display: flex;
+
+align-items: center;
+justify-content: space-between;
+}
+
+.me-auto{
+
+  justify-content: flex-end;
+  margin-left: 500px;
+
+}

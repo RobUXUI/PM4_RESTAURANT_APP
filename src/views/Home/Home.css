@@ -3,7 +3,7 @@
   
 margin: 20px;
 padding: 20px;
-background-image: url(../assets/imagenes/banners/img_section2.jpg);
+background-image: url("./src/assets/imagenes/banners/img_section2.jpg");
 background-size: cover;
 background-position: center;
 color: white;
