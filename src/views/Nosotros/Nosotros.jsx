@@ -1,13 +1,11 @@
-
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import '../Home/Home.css';
-import Button from 'react-bootstrap/Button'; 
+import '../Nosotros/Nosotros.css';
 
-const Home = () => {
+
+const Nosotros = () => {
     return (
         <Container>
             <Row className="mt-5"> 
@@ -32,17 +30,13 @@ const Home = () => {
                     </div>
                 </Col>
             </Row>
-            <Row className="mb-5">
-                <div className="calltoaction">
-                <h2>Revisa nuestra carta de las mejores Pizzas </h2>
-                <br />
-                <Button variant="danger" href="/Menu">Haz click aquí</Button>
-                </div>
-               
-
-            </Row>
+           
         </Container>
     );
 }
 
-export default Home;
+export default Nosotros;
+
+
+
+

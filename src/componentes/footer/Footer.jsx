@@ -13,7 +13,7 @@ function Footer() {
     <Container >
       <Row className='footer' >
         <Col>
-         <Image src="./src/assets/imagenes/logo/logo.png" fluid />
+         <Image src="./src/assets/imagenes/logo/logo.png"  className='logo_footer' fluid />
           
         </Col>
         <Col> 

@@ -1,22 +1,34 @@
 
-import { Routes, Route} from "react-router-dom"
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Home from "./views/Home/Home"
-import Products from "./views/Productos/Products"
-import Reservas from "./views/Reservas/Reservas"
-import Container from "react-bootstrap/esm/Container"
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import AppRoutes from '.scr/routes/navigation/AppRoutes';
+
+
+
+
+
+// function App() {
+// return(
+// <AppRoutes/>
+// )
+// }
+
+// export default App;
+
+
+import AppRoutes from './routes/navigation/AppRoutes.JSX';
+// import Navigation from './routes/navigation/navigation';
+import Footer from './componentes/footer/Footer';
+
 
 
 function App() {
-return(
-  <Container>
-    <Routes>
-      <Route path="/Home" element= {<Home />}/>
-      <Route path="/Products" element={<Products />}/>
-      <Route path="/Reservas" element={<Reservas />}/>
-    </Routes>
-  </Container>
-)
+  return (
+    <>
+      <AppRoutes/>
+      <Footer/>
+    </>
+  )
 }
 
 export default App;
