@@ -190,7 +190,7 @@ function Reservas() {
                 />
               </Form.Group>
             </Row>
-            <Button type="submit">Enviar</Button>
+            <Button variant='danger' type="submit">Enviar</Button>
           </Form>
         </Col>
       </Row>

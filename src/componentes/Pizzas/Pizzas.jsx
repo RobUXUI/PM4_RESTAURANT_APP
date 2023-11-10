@@ -3,11 +3,13 @@ import Button from 'react-bootstrap/esm/Button';
 
 export const Pizzas = (props) => {
   return (
-    <div>
+    <article className='card'>
+    <div className="card-body">
       <h3>{props.name}</h3>
       <p>{props.description}</p>
-      <Button variant="danger">Valor ${props.valor}</Button> 
+      <Button className="btn-bottom" variant="danger">Valor ${props.valor}</Button> 
     </div>
+  </article>
   );
 };
 

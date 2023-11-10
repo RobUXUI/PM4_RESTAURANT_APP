@@ -8,6 +8,7 @@ import '../Nosotros/Nosotros.css';
 const Nosotros = () => {
     return (
         <Container>
+             <section>
             <Row className="mt-5"> 
                 <Col md={6} className="p-5"> 
                     <div>
@@ -30,6 +31,18 @@ const Nosotros = () => {
                     </div>
                 </Col>
             </Row>
+            </section>
+            <section>
+            <Row mt-10 m-5>
+           
+                <div  className='D_imgLocal'>
+                <Col md={12} className="p-4"> 
+               <Image  src="./src/assets/imagenes/banners/img_section3.jpg" fluid  />
+               </Col >   
+               </div>
+           
+            </Row>
+            </section>
            
         </Container>
     );
