@@ -8,7 +8,7 @@ import react from '@vitejs/plugin-react'
     // base: "/PM4_RESTAURANT_APP/",
     plugins: [react()],
     build: {
-    outDir: 'dist', 
+    // outDir: 'dist', 
   },
 })
 
